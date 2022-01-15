@@ -11,13 +11,20 @@
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/c21fbf4e0a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <title>Bobby's Burritos</title>
+    <!---Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon-16x16.png">
+    <link rel="manifest" href="./Images/site.webmanifest">
+    <!--End Of Favicon-->
+    <title>Bobz Burritos</title>
   </head>
   <body>
     <!--Nav-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-black">
         <div class="container">
-          <a href="#" class="navbar-brand">Bobz Burritos</a>
+            <a href="#" class="navbar-brand">Bobz Burritos</a>
+            <img src="./Images/favicon-32x32.png">
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,19 +34,19 @@
                 <a href="#"class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Services</a>
+                <a href="#services" class="nav-link">Services</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Products</a>
+                <a href="#products" class="nav-link">Products</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
+                <a href="#about-sec" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                <a href="#" class="nav-link"><i class="fab fa-btc fa-2x"></i></a>
               </li>
             </ul>
           </div>
@@ -60,7 +67,7 @@
                 <div class="carousel-caption d-none d-sm-block text-right mb-5">
                   <h1 class="display-3 h-color">Southwest Chicken</h1>
                   <p class="lead">Southwest Style Chicken, Steamy Rice, and Sauteed Vegetables. </p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Order Now</a>
+                  <a href="#" class="btn btn-carousel slide-btn btn-lg">Order Now</a>
                 </div>
               </div>
             </div>
@@ -70,7 +77,7 @@
                 <div class="carousel-caption d-none d-sm-block mb-5">
                   <h1 class="display-3 h-color">Vegan Specialty</h1>
                   <p class="lead">Creamy Avocado, Tangy Beans, and Fresh Rice</p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Order Now</a>
+                  <a href="#" class="btn btn-carousel slide-btn btn-lg">Order Now</a>
                 </div>
               </div>
             </div>
@@ -80,7 +87,7 @@
                 <div class="carousel-caption d-none d-sm-block text-right mb-5">
                   <h1 class="display-3 h-color">Big Bacon Breakfast Burrito</h1>
                   <p class="lead">Fresh Eggs, Thick Bacon, and Warm Tortilla</p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Order Now</a>
+                  <a href="#" class="btn btn-carousel slide-btn btn-lg">Order Now</a>
                 </div>
               </div>
             </div>
@@ -97,7 +104,7 @@
       </section>
       <!--End of slider-->
       <!--Service Section==========-->
-      <section class="services py-5 text-center">
+      <section class="services py-5 text-center" id="services">
           <div class="container">
               <div class="row">
                   <!--Single Service-->
@@ -267,7 +274,7 @@
       <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
         <div class="card single-item">
           <div class="img-container">
-            <img src="./Images/burrito4.jpeg" class="card-img-top product-img burritofour" alt="">
+            <img src="./Images/burritoreplacement.jpg" class="card-img-top product-img burritofour" alt="">
           </div>
           <div class="card-body">
             <div class="card-text d-flex justify-content-between text-capitalize">
@@ -290,12 +297,14 @@
      <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 text-center">
-          <img src="Images/about.jpg" width="450" height="150" 
+          <img src="./Images/miguel.jpg" width="450" height="150" 
           class="img-fluid watch-img">
         </div>
         <div class="col-lg-7 text-lg-right  text-center text-color about-text">
           <h1 >About Company</h1>
-          <p class="text">Adolfo is dumb</p>
+          <p class="text">My name is Miguel I am simple man from El Paso Texas. I grew up with my mom and dad. They never made burritos. So one day I asked her to make me one and 
+            she told me no, and to never come back in her household. So I founded Bobz Burritos. I hate everyone who works here and they hate me. That is my story.
+          </p>
         </div>
       </div>
       </div>
@@ -308,7 +317,7 @@
           <div class="row mb-5">
             <div class="col d-flex flex-wrap text-uppercase justify-content-center">
               <h1 class="font-weight-bold align-self-center mx-1">
-                Best Seller Products
+                Our Restaurant
               </h1>
             </div>
           </div>
@@ -316,8 +325,8 @@
           <div class="row">
            <div class="col-sm-6 ">
               <div class="seller-item">
-                <img src="Images/about.jpg" alt="" class="img-fluid photo">
-                <p>Adolfo is dumb</p>
+                <img src="./Images/outsideshop.jpg" alt="" class="img-fluid photo">
+                <p>Outside</p>
                </div>
             </div>
             <!--End of first column-->
@@ -326,18 +335,18 @@
                 <!--first item-->
                 <div class="col-sm-6">
                   <div class="seller-item">
-                    <img src="Images/image1.jpg" alt="" class="img-fluid seller-img">
+                    <img src="./Images/bathroom.jpg" alt="" class="img-fluid seller-img">
                     
-                    <p>Adolfo is dumb</p>
+                    <p>Bathroom</p>
                   </div>
                 </div>
                 <!--End of 1st item-->
                  <!--first item-->
                  <div class="col-sm-6">
                   <div class="seller-item">
-                    <img src="Images/image2.jpg" alt="" class="img-fluid seller-img">
+                    <img src="./Images/clerk.jpeg" alt="" class="img-fluid seller-img">
                     
-                    <p>Adolfo is dumb</p>
+                    <p>Counter</p>
                   </div>
                 </div>
                 <!--End of 1st item-->       
@@ -347,20 +356,20 @@
                 <!--first item-->
                 <div class="col-sm-6">
                   <div class="seller-item">
-                    <img src="Images/image4.jpg" alt="" class="img-fluid seller-img
+                    <img src="./Images/cursed-cat.gif" alt="" class="img-fluid seller-img
                     img-top">
                     
-                    <p>Adolfo is dumb</p>
+                    <p>Greg</p>
                   </div>
                 </div>
                 <!--End of 1st item-->
                  <!--first item-->
                  <div class="col-sm-6">
                   <div class="seller-item">
-                    <img src="Images/image5.jpg" alt="" class="img-fluid seller-img
+                    <img src="./Images/outsidedining.jpg" alt="" class="img-fluid seller-img
                     img-top">
                     
-                    <p>Adolfo is dumb</p>
+                    <p>Outside Dining</p>
                   </div>
                 </div>
                 <!--End of 1st item-->       
@@ -374,7 +383,8 @@
        <!--Contact US-->
     <section class="contact py-5">
       <div class="container">
-          <h2 class="section-heading">Contact Us</h2>
+          <h2 class="section-heading">Contact Us     <img src="./Images/phone32x32.png"></h2>
+          
           <form class="col-lg-6 offset-lg-3">
               <div class="form-group">
                   <label for="email">Email address</label>
@@ -390,10 +400,6 @@
                   
               </textarea>
               </div>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="check">
-                  <label class="form-check-label" for="check">Subscribe to newsletter</label>
-              </div>
               <div class="text-center">
                   <button class="btn btn-lg btn-color cont-btn">Submit</button>
               </div>
@@ -402,31 +408,32 @@
   </section>
   <!--End of Contact Section-->
     <!--Footer-->
-    <footer class="footer mt-5">
-      <div class="text-center py-5">
-          <h2 class="py-3">Time Value</h2>
-         <div class="mx-auto heading-line"></div>
-       </div>
-      <div class="container">
-          <div class="row mb-3">
-              <div class="col-lg-8 offset-lg-2 text-center">
-                  <p>Randon words here </p>
-                  <div class="justify-content-center">
-                    <i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    
-                    </div>
-             </div>
-          </div>
-          <div class="copyright text-center py-3 border-top text-light">
-            <p>&copy; Copy Right Time Value</p>
-              
-          </div>
-      </div>
+    <div id="contact">
+      <footer class="footer mt-5">
+        <div class="text-center py-5">
+            <h2 class="py-3">Bobz Burritos</h2>
+          <div class="mx-auto heading-line"></div>
+        </div>
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <p>Our Socials </p>
+                    <div class="justify-content-center">
+                      <i class="fab fa-facebook fa-2x"></i>
+                      <i class="fab fa-twitter fa-2x"></i>
+                      <i class="fab fa-instagram fa-2x"></i>
+                      
+                      </div>
+              </div>
+            </div>
+            <div class="copyright text-center py-3 border-top text-light">
+              <p>&copy;Steven Pjontek </p>
+                
+            </div>
+        </div>
 
-    </footer>
-
+      </footer>
+    </div>
 
 
  
@@ -445,4 +452,3 @@
 
 
 
-    

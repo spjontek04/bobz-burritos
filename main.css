@@ -1,6 +1,23 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.021);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 20, 20, 0.89);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(248, 68, 68, 0.89);
+}
 /*=====Navbar===========*/
 .navbar .nav-link{
     font-size: 14px;
@@ -12,9 +29,13 @@ body{
     outline: none !important;
 }
 .bg-black{
-    background: rgba(0, 0, 0, 0.993);
+    background: rgba(156, 20, 20, 0.89);
 }
 /*=========Slider Section ============*/
+.carousel-indicators li{
+  margin-left: 0%;
+  margin-right: 0%;
+}
 .carousel-item{
     height: 600px;
 }
@@ -38,11 +59,15 @@ body{
 
 }
 .btn-color{
-    background: #000;
+    background-color: rgba(156, 20, 20, 0.89);
     color: #fff;
 }
 .btn-color:hover{
     color: #fff;
+}
+.btn-carousel{
+  background-color: rgba(156, 20, 20, 0.89);
+  color: white;
 }
 /* Wobble Vertical */
 @-webkit-keyframes slide-btn {
@@ -110,27 +135,27 @@ body{
       display: inline-block;
       font-size: 32px;
       margin-bottom: 16px;
-      color: rgba(128, 128, 128, 0.719);
+      color: rgba(128, 128, 128, 0.774);
       padding: 8px 16px;
   }
   .pepper{
     display: inline-block;
     font-size: 32px;
     margin-bottom: 16px;
-    color: rgba(255, 0, 0, 0.616);
+    color: rgba(255, 0, 0, 0.719);
     padding: 8px 16px;
 }
 .drumstick{
   display: inline-block;
   font-size: 32px;
   margin-bottom: 16px;
-  color: rgba(153, 75, 23, 0.616);
+  color: rgba(153, 75, 23, 0.753);
   padding: 8px 16px;
 }
   /*======End of Service Section====*/
   /*=======Products section=======*/
   #products{
-    background:#000;
+    background:rgba(156, 20, 20, 0.89);
   }
   .product-title{
     color: #fff;
@@ -240,7 +265,7 @@ body{
 }
 /*Best Seller== */
 .seller{
-  background: #000;
+  background: rgba(156, 20, 20, 0.89);
   color: #fff;
   margin-top: 30px;
 }
@@ -345,7 +370,7 @@ body{
 }
 /*==Footer===*/
 .footer{
-  background: #000;
+  background: rgba(156, 20, 20, 0.89);
   color: #fff;
 }
 .fab{
